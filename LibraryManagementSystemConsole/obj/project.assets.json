@@ -3664,11 +3664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DotNet\\ProjectPractice\\LibraryManagementSystemConsole\\LibraryManagementSystemConsole\\LibraryManagementSystemConsole.csproj",
+      "projectUniqueName": "E:\\DotNet\\LibraryManagementSystem\\LibraryManagementSystemConsole\\LibraryManagementSystemConsole.csproj",
       "projectName": "LibraryManagementSystemConsole",
-      "projectPath": "E:\\DotNet\\ProjectPractice\\LibraryManagementSystemConsole\\LibraryManagementSystemConsole\\LibraryManagementSystemConsole.csproj",
+      "projectPath": "E:\\DotNet\\LibraryManagementSystem\\LibraryManagementSystemConsole\\LibraryManagementSystemConsole.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "E:\\DotNet\\ProjectPractice\\LibraryManagementSystemConsole\\LibraryManagementSystemConsole\\obj\\",
+      "outputPath": "E:\\DotNet\\LibraryManagementSystem\\LibraryManagementSystemConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
