@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LibraryManagementSystemConsole
 {
-    class BookInfo
+    public class BookInfo
     {
         public int BookId { get; set; }
         public string Title { get; set; }
