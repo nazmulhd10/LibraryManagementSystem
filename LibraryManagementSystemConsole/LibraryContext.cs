@@ -17,6 +17,14 @@ namespace LibraryManagementSystemConsole
         {
             _connectionstring = connectionString;
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(_connectionstring);
+            }
+        }
         public DbSet<Student> Students { get; set; }
         public DbSet<UserInfo> UserInfos { get; set; }
         public DbSet<BookInfo> BookInfos { get; set; }

@@ -15,3 +15,8 @@ E:\DotNet\LibraryManagementSystem\LibraryManagementSystemConsole\obj\Debug\netco
 E:\DotNet\LibraryManagementSystem\LibraryManagementSystemConsole\obj\Debug\netcoreapp2.1\LibraryManagementSystemConsole.AssemblyInfo.cs
 E:\DotNet\LibraryManagementSystem\LibraryManagementSystemConsole\obj\Debug\netcoreapp2.1\LibraryManagementSystemConsole.dll
 E:\DotNet\LibraryManagementSystem\LibraryManagementSystemConsole\obj\Debug\netcoreapp2.1\LibraryManagementSystemConsole.pdb
+E:\DotNet\LibraryManagementSystem\LibraryManagementSystemConsole\bin\Debug\netcoreapp2.1\LibraryManagementSystemConsole.deps.json
+E:\DotNet\LibraryManagementSystem\LibraryManagementSystemConsole\bin\Debug\netcoreapp2.1\LibraryManagementSystemConsole.runtimeconfig.json
+E:\DotNet\LibraryManagementSystem\LibraryManagementSystemConsole\bin\Debug\netcoreapp2.1\LibraryManagementSystemConsole.runtimeconfig.dev.json
+E:\DotNet\LibraryManagementSystem\LibraryManagementSystemConsole\bin\Debug\netcoreapp2.1\LibraryManagementSystemConsole.dll
+E:\DotNet\LibraryManagementSystem\LibraryManagementSystemConsole\bin\Debug\netcoreapp2.1\LibraryManagementSystemConsole.pdb
