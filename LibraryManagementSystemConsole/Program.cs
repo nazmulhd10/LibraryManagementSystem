@@ -6,6 +6,13 @@ namespace LibraryManagementSystemConsole
     {
         static void Main(string[] args)
         {
+            LibraryContext con = new LibraryContext();
+            con.BookInfos.Add(new BookInfo());
+            con.UserInfos.Add(new UserInfo());
+            con.Students.Add(new Student());
+            con.BookIssues.Add(new BookIssue());
+            con.returnBooks.Add(new ReturnBook());
+
             StartPoint: Console.WriteLine("===========================");
             Console.WriteLine("Welcome to library system.");
             Console.WriteLine("Please enter your choice:");

@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Text;
-using System.Data.Entity;
 
 namespace LibraryManagementSystemConsole
 {
@@ -24,9 +25,17 @@ namespace LibraryManagementSystemConsole
             {
                 optionsBuilder.UseSqlServer(_connectionstring);
             }
+            base.OnConfiguring(optionsBuilder);
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
         }
         public DbSet<Student> Students { get; set; }
         public DbSet<UserInfo> UserInfos { get; set; }
         public DbSet<BookInfo> BookInfos { get; set; }
+        public DbSet<BookIssue> BookIssues { get; set; }
+        public DbSet<ReturnBook> returnBooks { get; set; }
     }
 }
